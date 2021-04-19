@@ -2,6 +2,10 @@ import json
 
 from binance.client import Client
 
+"""
+https://medium.com/@80draperj/introduction-to-binance-with-python-part-1-getting-started-7ed223a5643b
+"""
+
 # load api keys from local file
 with open("credentials.json", "r") as f:
     creds = json.load(f)
