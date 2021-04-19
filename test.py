@@ -1,5 +1,7 @@
 import json
 
+# this imports python-binance into the python script
+# if you get an error, make sure you installed it via pip install python-binance ... if on mac it's pip3 install python-binance
 from binance.client import Client
 
 """
