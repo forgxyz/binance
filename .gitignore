@@ -130,3 +130,4 @@ dmypy.json
 
 # xyz
 credentials.json
+global_credentials.json

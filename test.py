@@ -16,7 +16,14 @@ with open("credentials.json", "r") as f:
 client = Client(creds['API_KEY'], creds['SECRET_KEY'])
 
 # pull available tickers from binance
-tickers = client.get_all_tickers()
+# tickers = client.get_all_tickers()
 
 # print first 5 key-value pairs
-print(tickers[:5])
+# print(tickers[:5])
+
+# trades = client.get_recent_trades(symbol='BNBBTC')
+#
+# print(trades[:5])
+
+avg_price = client.get_avg_price(symbol='BNBBTC')
+print(avg_price)
